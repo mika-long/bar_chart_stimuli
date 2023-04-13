@@ -1,0 +1,134 @@
+{
+  "config": {
+    "view": {
+      "continuousWidth": 400,
+      "continuousHeight": 300
+    },
+    "axis": {
+      "labelFontSize": 14,
+      "titleFontSize": 14
+    },
+    "legend": {
+      "labelFontSize": 14,
+      "titleFontSize": 14
+    },
+    "title": {
+      "align": "center",
+      "anchor": "middle",
+      "fontSize": 16
+    }
+  },
+  "data": {
+    "name": "data-c86ccd27de945c0adce177c01349b9df"
+  },
+  "mark": "bar",
+  "background": "white",
+  "encoding": {
+    "color": {
+      "field": "year",
+      "type": "nominal"
+    },
+    "column": {
+      "field": "month",
+      "header": {
+        "labelFontSize": 14
+      },
+      "sort": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun"
+      ],
+      "title": null,
+      "type": "nominal"
+    },
+    "x": {
+      "axis": {
+        "labelAngle": -45
+      },
+      "field": "year",
+      "title": null,
+      "type": "ordinal"
+    },
+    "y": {
+      "field": "quantity",
+      "scale": {
+        "domain": [
+          0,
+          100
+        ],
+        "nice": false
+      },
+      "type": "quantitative"
+    }
+  },
+  "height": 300,
+  "title": "Profit from Jan to Jun in 2020 to 2021",
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.17.0.json",
+  "datasets": {
+    "data-c86ccd27de945c0adce177c01349b9df": [
+      {
+        "year": "2020",
+        "month": "Jan",
+        "quantity": 23.0
+      },
+      {
+        "year": "2020",
+        "month": "Feb",
+        "quantity": 21.0
+      },
+      {
+        "year": "2020",
+        "month": "Mar",
+        "quantity": 51.0
+      },
+      {
+        "year": "2020",
+        "month": "Apr",
+        "quantity": 46.0
+      },
+      {
+        "year": "2020",
+        "month": "May",
+        "quantity": 55.0
+      },
+      {
+        "year": "2020",
+        "month": "Jun",
+        "quantity": 34.0
+      },
+      {
+        "year": "2021",
+        "month": "Jan",
+        "quantity": 28.0
+      },
+      {
+        "year": "2021",
+        "month": "Feb",
+        "quantity": 43.0
+      },
+      {
+        "year": "2021",
+        "month": "Mar",
+        "quantity": 28.0
+      },
+      {
+        "year": "2021",
+        "month": "Apr",
+        "quantity": 25.0
+      },
+      {
+        "year": "2021",
+        "month": "May",
+        "quantity": 41.0
+      },
+      {
+        "year": "2021",
+        "month": "Jun",
+        "quantity": 29.0
+      }
+    ]
+  }
+}
